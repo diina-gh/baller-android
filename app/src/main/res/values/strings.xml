@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Baller</string>
+    <string name="title_home">Accueil</string>
+    <string name="title_teams">Equipes</string>
+    <string name="title_games">Match</string>
+    <string name="title_plus">Plus</string>
+</resources>
