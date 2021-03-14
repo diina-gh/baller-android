@@ -3,5 +3,22 @@
     <string name="title_home">Accueil</string>
     <string name="title_teams">Equipes</string>
     <string name="title_games">Match</string>
-    <string name="title_plus">Plus</string>
+    <string name="title_plus">Scores</string>
+
+    <string name="actualite1">Aucune équipe n’étant parvenue à s’imposer ce samedi à Saly, dans le choc des académies qui était assurément l’affiche de la 10ème journée de Ligue 1, entre Diambars et Génération Foot (0 – 0), l’AS Douanes en a profité pour s’emparer des commandes du championnat. </string>
+    <string name="actualite2">En attendant d’aller défier à Alger, la semaine prochaine, le Mouloudia Club (MCA) qui l’a battu (1 – 0) il y a quelques jours lors de la 3ème journée de la phase de poules de la Ligue africaine des champions, Teungueth FC accueille l’US Gorée ce vendredi en match avancé de la 10ème journée de L1. </string>
+    <string name="actualite3">En attendant d’aller défier à Alger, la semaine prochaine, le Mouloudia Club (MCA) qui l’a battu (1 – 0) il y a quelques jours lors de la 3ème journée de la phase de poules de la Ligue africaine des champions, Teungueth FC accueille l’US Gorée ce vendredi en match avancé de la 10ème journée de L1.</string>
+    <string name="actualite4">Le CNEPS Excellence de Thiès a confirmé sa belle forme du moment en disposant, ce mercredi du Casa Sports (2 – 0) au stade Lat Dior de Thiès, en match en retard de la 8ème journée de Ligue 1. Cela fait deux succès de suite en déplacement (2 – 0 contre l’AS Pikine et 1 – 0 face au Dakar Sacré-Cœur).</string>
+
+
+    <string name="title_activity_teams">TeamsActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
 </resources>

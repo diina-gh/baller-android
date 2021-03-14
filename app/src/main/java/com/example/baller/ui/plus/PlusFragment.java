@@ -25,7 +25,7 @@ public class PlusFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_plus, container, false);
+        return inflater.inflate(R.layout.plus_fragment, container, false);
     }
 
     @Override

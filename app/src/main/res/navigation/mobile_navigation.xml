@@ -9,24 +9,24 @@
         android:id="@+id/navigation_home"
         android:name="com.example.baller.ui.home.HomeFragment"
         android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/home_fragment" />
 
     <fragment
         android:id="@+id/navigation_teams"
         android:name="com.example.baller.ui.teams.TeamsFragment"
         android:label="@string/title_teams"
-        tools:layout="@layout/fragment_teams" />
+        tools:layout="@layout/teams_fragment" />
 
     <fragment
         android:id="@+id/navigation_games"
         android:name="com.example.baller.ui.games.GamesFragment"
         android:label="@string/title_games"
-        tools:layout="@layout/fragment_games" />
+        tools:layout="@layout/games_fragment" />
 
     <fragment
         android:id="@+id/navigation_plus"
         android:name="com.example.baller.ui.plus.PlusFragment"
         android:label="@string/title_plus"
-        tools:layout="@layout/fragment_plus" />
+        tools:layout="@layout/plus_fragment" />
 
 </navigation>

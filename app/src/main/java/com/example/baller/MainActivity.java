@@ -16,26 +16,9 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
+import java.util.ArrayList;
+
 public class MainActivity extends AppCompatActivity {
-
-    ListView listView;
-    TextView textView;
-    String [] clubs = {
-            "Diambar",
-            "Génération Foot",
-            "Pikine",
-            "Excellence",
-            "Teungueth FC",
-            "Jaraaf",
-            "Stade Mbour",
-            "Casa Sports",
-            "Dakar SC",
-            "Ndiambour",
-            "Mbour PC",
-            "US Gorée",
-            "Niary Tally"
-    };
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -50,24 +33,7 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(navView, navController);
 
-        // Teams view
-        listView = (ListView) findViewById(R.id.listView);
-        textView = (TextView)findViewById(R.id.textView);
 
-        final ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
-                R.layout.clubs, R.id.textView, this.clubs);
-
-        listView.setAdapter(adapter);
-
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                /* appending Happy with festival name */
-                String value = "Happy " + adapter.getItem(i);
-                /* Display the Toast */
-                Toast.makeText(getApplicationContext(), value, Toast.LENGTH_SHORT).show();
-            }
-        });
     }
 
 }

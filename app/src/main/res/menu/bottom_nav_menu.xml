@@ -13,7 +13,7 @@
 
     <item
         android:id="@+id/navigation_games"
-        android:icon="@drawable/ic_game_controller_outline"
+        android:icon="@drawable/ic_football_outline"
         android:title="@string/title_games" />
 
     <item
